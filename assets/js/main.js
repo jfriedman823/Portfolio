@@ -272,4 +272,28 @@ var settings = {
 
 	});
 
+	$(".banner").on("click", function() {
+        $('html,body').animate({
+            scrollTop: $("#banner").offset().top
+        }, 1000);
+	})
+	
+	$(".one").on("click", function() {
+        $('html,body').animate({
+            scrollTop: $("#one").offset().top
+        }, 1000);
+	})
+	
+	$(".four").on("click", function() {
+        $('html,body').animate({
+            scrollTop: $("#four").offset().top
+        }, 1000);
+	})
+	
+	$(".five").on("click", function() {
+        $('html,body').animate({
+            scrollTop: $("#five").offset().top
+        }, 1000);
+    })
+
 })(jQuery);
